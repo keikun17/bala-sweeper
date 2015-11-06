@@ -21,7 +21,7 @@ export default class App extends React.Component {
 
   render() {
     return <app>
-      <bullet_counter>Bullets Remaining : { this.state.bullets_remaining }!</bullet_counter>
+      <h1>Hey NAIA Man, Find all the bullets!</h1>
       <grid>
         { this.cells() }
 

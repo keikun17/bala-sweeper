@@ -20187,11 +20187,9 @@
 	        'app',
 	        null,
 	        _react2['default'].createElement(
-	          'bullet_counter',
+	          'h1',
 	          null,
-	          'Bullets Remaining : ',
-	          this.state.bullets_remaining,
-	          '!'
+	          'Hey NAIA Man, Find all the bullets!'
 	        ),
 	        _react2['default'].createElement(
 	          'grid',
