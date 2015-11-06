@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* line 1, /Users/Valerian/Projects/laglag-bala/source/stylesheets/components/cell.sass */
+cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  padding: 3px;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  /* line 10, /Users/Valerian/Projects/laglag-bala/source/stylesheets/components/cell.sass */
+  cell::before {
+    font-family: Ionicons;
+    font-size: 44px;
+    content: ""; }
+  /* line 15, /Users/Valerian/Projects/laglag-bala/source/stylesheets/components/cell.sass */
+  cell.clicked {
+    background-color: red;
+    background-image: url("../images/bullet.png");
+    background-size: 54px 57px;
+    background-repeat: no-repeat; }
+    /* line 20, /Users/Valerian/Projects/laglag-bala/source/stylesheets/components/cell.sass */
+    cell.clicked::before {
+      content: ""; }

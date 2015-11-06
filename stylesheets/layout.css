@@ -1,0 +1,7 @@
+/* line 1, /Users/Valerian/Projects/laglag-bala/source/stylesheets/layout.sass */
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px; }
